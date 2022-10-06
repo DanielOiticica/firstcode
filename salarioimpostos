@@ -1,0 +1,14 @@
+horasal = float(input('Digite o quanto você ganha por hora:'))
+horatrab = float(input('Digite quantas horas você trabalhou nesse mês:'))
+salbrut = horasal * horatrab
+
+IR = salbrut * 0.11
+INSS = salbrut * 0.08
+SD = salbrut * 0.05
+saliqui = salbrut - (IR + INSS + SD)
+
+print(f'O seu salario bruto ficou em {salbrut:.2f}')
+print(f'O desconto do Imposto de Renda foi de R${IR:.2f}')
+print(f'O desconto do INSS foi de R${INSS:.2f}')
+print(f'O desconto do sindicato foi de R${SD:.2f}')
+print(f'O seu salário líquido ficou em R${saliqui:.2f} ')
