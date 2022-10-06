@@ -1,0 +1,7 @@
+pintura = float(input('Digite quantos metros quadrados:'))
+qlitro = pintura / 3
+lata = round(qlitro / 18+(0.5))
+preco = lata * 80
+
+print(f'Você irá precisar de {lata} latas')
+print(f'O total a pagar será R${preco} ')
