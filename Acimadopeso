@@ -1,0 +1,7 @@
+pesodp = float(input(f'Digite quantos kg foram pescados:'))
+excesso = pesodp - 50
+multa = excesso * 4
+if pesodp > 50:
+  print(f'O peso foi maoir do que o permitido\n O senhor(a) devera pagar a multa de R${multa:.2f}')
+else:
+    print('O peso não ultrapassou o limite\n O senhor(a) está isenta da taxa extra.')
