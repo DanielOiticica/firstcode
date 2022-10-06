@@ -1,0 +1,10 @@
+sexo = int(input("Se for homem digite 1;Se for mulher digite 2:"))
+h = float(input("Informe sua altura para saber o seu peso ideal:"))
+ homempi = (72.7 * h ) - 58
+ mulherpi = (62.1 * h) - 44.7
+if sexo == 1:
+     print(f'O seu peso ideal é {homempi:.2f} ')
+elif sexo == 2 :
+     print(f'O seu peso ideal é{mulherpi:.2f}')
+else:
+    print('O número foi inválido!\n ATENÇÃO!!!Os números devem ser 1 ou 2!')
