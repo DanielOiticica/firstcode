@@ -1,0 +1,6 @@
+numero = float(input('Digite um número qualquer: '))
+type(numero)
+if (numero == int):
+    print('Número inteiro !')
+else:
+    print('Número Decimal !')
